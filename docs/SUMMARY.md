@@ -4,4 +4,5 @@
 - 开题报告
   - [目录](/docs/Thesis-Proposal/content.md)
   - [总体](/docs/Thesis-Proposal/README.md)
+  - [chatGPT](/docs/Thesis-Proposal/chatGPT.md)
   - [预稿](/docs/Thesis-Proposal/draft.md)
