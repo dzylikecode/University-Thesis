@@ -5,4 +5,5 @@
   - [目录](/docs/Thesis-Proposal/content.md)
   - [总体](/docs/Thesis-Proposal/README.md)
   - [chatGPT](/docs/Thesis-Proposal/chatGPT.md)
+  - [技术框架](/docs/Thesis-Proposal/frame.md)
   - [预稿](/docs/Thesis-Proposal/draft.md)
