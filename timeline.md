@@ -29,8 +29,11 @@
 
 - 2.24 - 2.27
 
-  想看看毕设论文, 结果导师给篇论文需要审阅(English manuscript draft):smiling_face_with_tear:
+  想看看毕设论文, 结果导师给篇论文给我审阅(English manuscript draft):smiling_face_with_tear:
 
 - 2.27
 
   助教来催了:sob:
+
+  - [x] 助教审阅提纲
+  - [ ] 助教审阅开题报告

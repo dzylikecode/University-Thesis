@@ -1,5 +1,5 @@
 - [:hatching_chick:](/README.md)
+- [time](/time.md)
+- [time (PC)](/timePC.md)
 - [任务书](/task.md)
-- [基本理解](/task-th.md)
-- [文献阅读](/reading.md)
 - [time line](/timeline.md)

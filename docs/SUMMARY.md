@@ -1,5 +1,7 @@
 - [:hatching_chick:](/docs/README.md)
-- [time](/docs/time.md)
+- [粗略解读](/docs/pre-understanding.md)
+- [文献解读](/docs/reference.md)
 - 开题报告
   - [目录](/docs/Thesis-Proposal/content.md)
   - [总体](/docs/Thesis-Proposal/README.md)
+  - [预稿](/docs/Thesis-Proposal/draft.md)
