@@ -1,2 +1,3 @@
 - [:house:](https://dzylikecode.github.io/#/)
-- [time line](/timeline.md)
+- [:hatching_chick:](/)
+- [:scroll:](/docs/)
