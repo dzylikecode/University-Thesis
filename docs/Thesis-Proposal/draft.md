@@ -90,9 +90,11 @@
 
 3. [一种便捷式弯曲半径测量尺](https://patents.google.com/patent/CN205209412U/zh)
 
+   [输电电缆弯曲度自动测量仪设计](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C475KOm_zrgu4lQARvep2SAkWfZcByc-RON98J6vxPv10R4WiO3SCNZBiEYLhOdAvSCxobfQAAlJX_2V5jDa7JQy&uniplatform=NZKPT)
+
 4. [一种电缆弯曲度测量方法](https://patents.google.com/patent/CN105180832A/zh)
 
-5. [Jordal Lars,Vermeer Erwin,Limi Morten,Karlsen Kjetil André. An Alternative Measurement Method to Identify the Minimum Bending Radius of Locked Deformed Bend Restrictor Elements Under Load[P]. ASME 2022 41st International Conference on Ocean, Offshore and Arctic Engineering,2022.](https://kns.cnki.net/kns8/defaultresult/index)
+5. [Jordal Lars,Vermeer Erwin,Limi Morten,Karlsen Kjetil André. An Alternative Measurement Method to Identify the Minimum Bending Radius of Locked Deformed Bend Restrictor Elements Under Load[P]. ASME 2022 41st International Conference on Ocean, Offshore and Arctic Engineering,2022.](https://schlr.cnki.net/zn/Detail/index/GARCLAST/SPADF0F40150CD929674066C257CB2289C32)
 
    source: https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2022/V003T04A009/1147718
 

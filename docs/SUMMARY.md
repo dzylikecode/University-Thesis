@@ -7,3 +7,4 @@
   - [chatGPT](/docs/Thesis-Proposal/chatGPT.md)
   - [技术框架](/docs/Thesis-Proposal/frame.md)
   - [预稿](/docs/Thesis-Proposal/draft.md)
+  - [终稿](/docs/Thesis-Proposal/final.md)
