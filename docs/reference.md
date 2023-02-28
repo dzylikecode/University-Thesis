@@ -37,3 +37,11 @@
 ---
 
 觉得是用卷积神经网络, 需要了解一下
+
+---
+
+- [A new algorithm of image segmentation using curve fitting based higher order polynomial smoothing](https://www.sciencedirect.com/science/article/pii/S0030402616307410)
+
+- [Robust Lane Detection using Two-stage Feature Extraction with Curve Fitting](https://www.sciencedirect.com/science/article/pii/S0031320315004690)
+
+- [Active contours driven by local pre-fitting energy for fast image segmentation](https://www.sciencedirect.com/science/article/pii/S0167865518300254)

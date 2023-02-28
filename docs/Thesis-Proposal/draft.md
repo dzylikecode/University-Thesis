@@ -20,8 +20,13 @@
 
 ### 国内外现状综述
 
-经过多年的发展，线缆弯曲已经有了成熟的测量技术。在传统的领域，主要采用目视法这一传统方法对弯曲半径进行检查。目视检查依靠人眼观察，在直观感觉的基础上结合经验对弯曲半径进行判断。该方法操作简单，检测速度快，现场应用十分方便，可以对大量布线快速粗略判断[1]。另外的, 是使用卡尺， 钢尺等传统工具来辅助专业人员测量弯曲半径[2]。传统测量成本低，方便携带，测量相较于目测法直观、准确。然而传统的方法，准确度较低，不适用于精度要求较高的场合，而且不利于自动化生产的实现。现代先进的技术是利用光学来测量，通过激光扫描仪、激光干涉仪等光学仪器对线缆弯曲半径进行测量[3]。这种方法能够快速、准确地测量线缆的弯曲半径，但是对于弯曲半径较小的线缆，可能存在一定的误差。还有通过全站仪（total station）测距的方法来测量线缆的弯曲半径，这种方法易于应用，省时，有较高的测量精度，缺点是需要的仪器价格偏高[4]。
-机器视觉方法与图像处理技术日益成熟。它们能够实现自动化测量，同时具有高精度和可重复性，这对于线缆弯曲半径的测量具有重要的意义。通过数字图像技术，采用滤波技术可以对将环境复杂的图像进行去噪，增强，减少无用信息的干扰，突出感兴趣的对象[5]。
+经过多年的发展，线缆弯曲已经有了成熟的测量技术。在传统的领域，主要采用目视法这一传统方法对弯曲半径进行检查。目视检查依靠人眼观察，在直观感觉的基础上结合经验对弯曲半径进行判断。该方法操作简单，检测速度快，现场应用十分方便，可以对大量布线快速粗略判断[1]。另外的, 是使用卡尺， 钢尺等传统工具来辅助专业人员测量弯曲半径[2]。传统测量成本低，方便携带，测量相较于目测法直观、准确。由于一般采用近似圆弧的方法处理，准确度较低，不适用于精度要求较高的场合[3]。而且传统的方法人工介入太多，不利于自动化生产的实现。现代先进的技术是利用光学来测量，通过激光扫描仪、激光干涉仪等光学仪器对线缆弯曲半径进行测量[4]。这种方法能够快速、准确地测量线缆的弯曲半径，但是对于弯曲半径较小的线缆，可能存在一定的误差。还有通过全站仪（total station）测距的方法来测量线缆的弯曲半径，这种方法易于应用，省时，有较高的测量精度，缺点是需要的仪器价格偏高[5]。
+
+机器学习方法与图像处理技术日益成熟。它们能够实现自动化测量，同时具有高精度和可重复性，这对于线缆弯曲半径的测量具有重要的意义。通过数字图像技术，采用滤波技术可以对将环境复杂的图像进行去噪，增强，减少无用信息的干扰，突出感兴趣的对象[6]。机器学习中的深度学习允许由多个处理层组成的计算模型学习具有多个抽象级别的数据表示[7]，使得程序能够自我发现深层次、高级的概念，提取特征。这大大地减轻了人的负担，广泛得应用与图像分割与检测，语言识别等领域。基于深度学习的语义分割旨在为图像中的每个像素分配一个分类标签，对图像理解有重要的作用[8]。根据最近语义分割方法的主要组成部分，可以将它们分为三类：基于区域的语义分割、基于 FCN 的语义分割和弱监督分割[9] [10]。已经有学者采用弱监督半自动图像标记方法[11]应用于分割出可变形线性物体 (DLO)，例如电线、电缆或绳索等，并且设计了可实时分割的实例[12]。
+
+曲线拟合已经有了非常成熟的数学理论和计算机方法，采用插值、回归、样条曲线拟合等方法获得高精度的拟合曲线[13] [14]，能够为可变形线性物体建立一个真实度较高的数学模型进行一步分析。这可以帮助线缆的弯曲半径的进行理论计算。
+
+目前国内外综合运用基于深度学习语义分割和曲线拟合的方法应用于线缆弯曲半径的测量非常少，研究这方面的课题能够提高生产效率，降低生产成本，以及为相应的研究提供参考价值。
 
 ## 课题研究主要内容及研究基础
 
@@ -81,10 +86,30 @@
 
 1. [方武震,姚旭成,赵永鹏等.浅析机载线缆弯曲半径的检测方法[J].电线电缆,2020(06):17-20.DOI:10.16105/j.cnki.dxdl.2020.06.005.](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iy_Rpms2pqwbFRRUtoUImHae6S-T5nTIPVZiaD1CMzRQGrCvSgz-A4IVZQmB4vThs&uniplatform=NZKPT&src=copy)
 
-2. [一种便捷式弯曲半径测量尺](https://patents.google.com/patent/CN205209412U/zh)
+2. [张洁民.电缆弯曲半径的现场简便测量[J].农村电气化,2006(09):17-19.](https://kns.cnki.net/kcms2/article/abstract?v=ZUUpU2TibaLyVMH5RPg3BEh_b42Ky5gDigEJZUunWRpnuhkJLZI8p9tUPPQU1juXT21H2Vyjxx1MZ4Lt5Z9_BwpQDXXTnsVvlTdBzAZebJc=&uniplatform=NZKPT&language=CHS)
 
-3. [一种电缆弯曲度测量方法](https://patents.google.com/patent/CN105180832A/zh)
+3. [一种便捷式弯曲半径测量尺](https://patents.google.com/patent/CN205209412U/zh)
 
-4. [Jordal Lars,Vermeer Erwin,Limi Morten,Karlsen Kjetil André. An Alternative Measurement Method to Identify the Minimum Bending Radius of Locked Deformed Bend Restrictor Elements Under Load[P]. ASME 2022 41st International Conference on Ocean, Offshore and Arctic Engineering,2022.](https://kns.cnki.net/kns8/defaultresult/index)
+4. [一种电缆弯曲度测量方法](https://patents.google.com/patent/CN105180832A/zh)
 
-5. [6] 杨杰,黄朝兵.数字图像处理以及 MATLAB 实现[M].北京:电子工业出版社,2019:75-134
+5. [Jordal Lars,Vermeer Erwin,Limi Morten,Karlsen Kjetil André. An Alternative Measurement Method to Identify the Minimum Bending Radius of Locked Deformed Bend Restrictor Elements Under Load[P]. ASME 2022 41st International Conference on Ocean, Offshore and Arctic Engineering,2022.](https://kns.cnki.net/kns8/defaultresult/index)
+
+   source: https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2022/V003T04A009/1147718
+
+6. 杨杰,黄朝兵.数字图像处理以及 MATLAB 实现[M].北京:电子工业出版社,2019:75-134
+
+7. [Deep learning](https://www.nature.com/articles/nature14539)
+
+8. [Understanding Convolution for Semantic Segmentation](https://ieeexplore.ieee.org/abstract/document/8354267)
+
+9. [A review of semantic segmentation using deep neural networks](https://link.springer.com/article/10.1007/s13735-017-0141-z)
+
+10. [Methods and datasets on semantic segmentation: A review](https://www.sciencedirect.com/science/article/pii/S0925231218304077)
+
+11. [A Weakly Supervised Semi-Automatic Image Labeling Approach for Deformable Linear Objects](https://ieeexplore.ieee.org/abstract/document/10008018)
+
+12. [RT-DLO: Real-Time Deformable Linear Objects Instance Segmentation](https://ieeexplore.ieee.org/abstract/document/10045806)
+
+13. [洪庆飞. 图像轮廓的 B 样条拟合和优化研究[D].杭州电子科技大学,2021.DOI:10.27075/d.cnki.ghzdc.2021.000406.](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C475KOm_zrgu4lQARvep2SAkueNJRSNVX-zc5TVHKmDNkhedsxFjM4AUoeXjoYvCV5WpR44fdJYGqz-bguuUIeCL&uniplatform=NZKPT)
+
+14. [NURBS 曲线拟合的最小二乘渐进迭代逼近优化算法](https://kns.cnki.net/kcms2/article/abstract?v=ZUUpU2TibaI8Kag__XNqG-acoYi6a2nynjftp5iePU_BCv9KpZp8P5JVThKt86tZglAli7NMY1O5RGLdeNOhkyCpeDyfZmKc1S8Q9PXV1yk=&uniplatform=NZKPT&language=CHS)
